@@ -6,6 +6,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -22,12 +23,12 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        TestUtil ut = new TestUtil();
+        showMyText();
 
-        TextView tv = (TextView) findViewById(R.id.MyUtityView);
-
-        tv.setText(ut.GetValue());
-
+        for (int count = 0; count < 10; count++) {
+            Log.i("MainActivity", "onCreate: Value: " + count);
+        }
+        
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,6 +37,14 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+    }
+
+    private void showMyText() {
+        TestUtil myut = new TestUtil();
+
+        TextView tv = (TextView) findViewById(R.id.MyUtityView);
+
+        tv.setText(myut.GetValue());
     }
 
     @Override
