@@ -13,8 +13,20 @@
     tools:showIn="@layout/activity_main">
 
     <TextView
-        android:id="@+id/MyUtityView"
+        android:id="@+id/Show"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Click Me"
+        android:id="@+id/button"
+        android:onClick="clickHandler"
+        android:layout_below="@+id/Show"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp" />
 </RelativeLayout>
