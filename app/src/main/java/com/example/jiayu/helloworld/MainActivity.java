@@ -22,11 +22,8 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        //Show Text example
         showMyText();
-
-        for (int count = 0; count < 10; count++) {
-            Log.i("MainActivity", "onCreate: Value: " + count);
-        }
         
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
