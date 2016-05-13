@@ -9,10 +9,17 @@
         android:layout_height="wrap_content"
         android:shrinkColumns="1"
         android:stretchColumns="2">
+
         <Button android:id="@+id/ok1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="独自一行的按钮"/>
+
+        <Button android:id="@+id/ok110"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="独自一行的按钮"/>
+
         <TableRow>
             <Button android:id="@+id/ok2"
                 android:layout_width="wrap_content"
@@ -27,12 +34,39 @@
                 android:layout_height="wrap_content"
                 android:text="拉伸的按钮"/>
         </TableRow>
+
     </TableLayout>
 
     <TableLayout android:id="@+id/TableLayout02"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:collapseColumns="1">
+
+       <Button android:id="@+id/ok5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="独自一行的按钮"/>
+
+        <TableRow>
+            <Button android:id="@+id/ok6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正常按钮"/>
+            <Button android:id="@+id/ok7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="隐藏的按钮"/>
+            <Button android:id="@+id/ok8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="拉伸的按钮"/>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout android:id="@+id/TableLayout03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1, 2">
         <Button android:id="@+id/ok9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -51,22 +85,12 @@
                 android:layout_height="wrap_content"
                 android:text="拉伸的按钮"/>
         </TableRow>
-    </TableLayout>
-
-    <TableLayout android:id="@+id/TableLayout03"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:stretchColumns="1, 2">
-        <Button android:id="@+id/ok13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="独自一行的按钮"/>
         <TableRow>
-            <Button android:id="@+id/ok14"
+            <Button android:id="@+id/ok13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="正常按钮"/>
-            <Button android:id="@+id/ok15"
+            <Button android:id="@+id/ok14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="拉伸的按钮"/>
