@@ -11,15 +11,19 @@
         android:stretchColumns="2">
 
         <Button android:id="@+id/ok1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:text="独自一行的按钮"/>
 
         <Button android:id="@+id/ok110"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:text="独自一行的按钮"/>
 
+        <Button android:id="@+id/ok111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="独自一行的按钮"/>
         <TableRow>
             <Button android:id="@+id/ok2"
                 android:layout_width="wrap_content"
