@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         -->
-        <activity android:name=".Chapter2UIFrameLayout">
+        <activity android:name=".Chapter2UIRelativeLayout">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
