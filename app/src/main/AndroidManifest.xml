@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         -->
-        <activity android:name=".Chapter2UIGridLayout">
+        <activity android:name=".Chapter2.Chapter2TextView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

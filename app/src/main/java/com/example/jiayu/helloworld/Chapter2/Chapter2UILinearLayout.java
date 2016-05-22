@@ -1,7 +1,9 @@
-package com.example.jiayu.helloworld;
+package com.example.jiayu.helloworld.Chapter2;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.jiayu.helloworld.R;
 
 public class Chapter2UILinearLayout extends AppCompatActivity {
 

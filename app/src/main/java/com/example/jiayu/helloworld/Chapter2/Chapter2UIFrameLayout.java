@@ -1,10 +1,12 @@
-package com.example.jiayu.helloworld;
+package com.example.jiayu.helloworld.Chapter2;
 
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.example.jiayu.helloworld.R;
 
 import java.util.Timer;
 import java.util.TimerTask;
