@@ -5,7 +5,7 @@ This is the Jia Lei Andriod learn project
 
 Structure
 ------------------------
-There is only one mainactive, but each chapter has one package to include all example for it.
+There is only one **MainActivity**, but each chapter has one package to include all example Activity for it.
 the it can to change the manifests to let the app to show which example
 
 >**Note**

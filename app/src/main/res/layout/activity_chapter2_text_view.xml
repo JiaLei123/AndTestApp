@@ -10,15 +10,44 @@
         android:singleLine="true"
         android:text="我爱java"
         android:textSize="20pt"
-        android:drawableEnd="@drawable/virtual_pc"
-        android:drawableRight="@drawable/virtual_pc"/>
+        android:drawableEnd="@drawable/virtual_pc"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:singleLine="true"
-        android:text=""/>
+        android:text="我爱java我爱java我爱java我爱java我爱java我爱java"
+        android:ellipsize="middle"
+        android:textAllCaps="true"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="邮件是sfw123817@gmail.com, 电话是(123)4567822"
+        android:autoLink="email|phone"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试文字"
+        android:shadowColor="#00f"
+        android:shadowDx="10.0"
+        android:shadowDy="8.0"
+        android:shadowRadius="3.0"
+        android:textColor="#f00"
+        android:textSize="30pt"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="password"
+        android:password="true"/>
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="克勾选的文本"
+        android:checkMark="@drawable/button_ok"/>
 
 </LinearLayout>
