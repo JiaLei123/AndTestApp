@@ -1,7 +1,10 @@
 package com.example.jiayu.helloworld.Chapter2;
 
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -35,7 +38,7 @@ public class Chapter2ImageView extends AppCompatActivity {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                image1.setImageResource(images[currentImg % images.length]);
+                image1.setImageResource(images[++currentImg % images.length]);
             }
         });
 
@@ -65,5 +68,28 @@ public class Chapter2ImageView extends AppCompatActivity {
         plus.setOnClickListener(listener);
         minus.setOnClickListener(listener);
 
+        image1.setOnTouchListener(new View.OnTouchListener()
+        {
+            @Override
+            public boolean onTouch(View view, MotionEvent event)
+            {
+                BitmapDrawable bitmapDrawable = (BitmapDrawable) image1.getDrawable();
+                Bitmap bitmap = bitmapDrawable.getBitmap();
+
+                double scale = 1.0 * bitmap.getHeight() / image1.getHeight();
+                int x = (int) (event.getX() * scale);
+                int y = (int) (event.getY() * scale);
+                if (x + 60 > bitmap.getWidth()) {
+                    x = bitmap.getWidth() - 60;
+                }
+                if (y + 60 > bitmap.getHeight()) {
+                    y = bitmap.getHeight() - 60;
+                }
+
+                image2.setImageBitmap(Bitmap.createBitmap(bitmap, x - 120, y, 120, 120));
+                image2.setImageAlpha(alpha);
+                return false;
+            }
+        });
     }
 }
