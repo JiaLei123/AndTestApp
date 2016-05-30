@@ -22,7 +22,14 @@
             </intent-filter>
         </activity>
         -->
-        <activity android:name=".Chapter2.Chapter2ToggleButton">
+        <activity android:name=".Chapter2.Chapter2ClockTest">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Chapter2.Chapter2Chronometer">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
