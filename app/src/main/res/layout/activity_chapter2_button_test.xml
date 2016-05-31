@@ -17,7 +17,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/red"
+        android:background="@drawable/red9"
         android:text="普通按钮"
         android:textSize="10pt"/>
 

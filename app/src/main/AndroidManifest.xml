@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         -->
-        <activity android:name=".Chapter2.Chapter2ImageView">
+        <activity android:name=".Chapter2.Chapter2ImageButton">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
