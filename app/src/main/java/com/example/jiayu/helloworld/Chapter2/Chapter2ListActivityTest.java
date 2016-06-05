@@ -11,7 +11,7 @@ public class Chapter2ListActivityTest extends ListActivity {
         super.onCreate(savedInstanceState);
         String[] arr = {"孙悟空", "猪八戒", "牛魔王"};
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout, arr);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_multiple_choice, arr);
         setListAdapter(adapter);
 
     }
