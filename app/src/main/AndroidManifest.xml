@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         -->
-        <activity android:name=".Chapter2.Chapter2BaseAdapter">
+        <activity android:name=".Chapter2.Chapter2AutoCompleteTextView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
