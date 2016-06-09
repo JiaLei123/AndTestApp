@@ -11,10 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.jiayu.helloworld.MainActivity;
 import com.example.jiayu.helloworld.R;
-
-import java.util.List;
 
 
 public class Chapter2BaseAdapter extends AppCompatActivity {
