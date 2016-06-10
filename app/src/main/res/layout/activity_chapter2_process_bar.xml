@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.Holo.ProgressBar.Large"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.ProgressBar.Large"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.ProgressBar.Small"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task Process"/>
+
+    <ProgressBar
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        style="@android:style/Widget.ProgressBar.Horizontal"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bar2"
+        android:max="100"
+        android:progressDrawable="@drawable/my_bar"
+        style="@android:style/Widget.ProgressBar.Horizontal"/>
+
+</LinearLayout>
