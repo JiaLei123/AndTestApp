@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         -->
-        <activity android:name=".Chapter2.Chapter2SpinnerTest">
+        <activity android:name=".Chapter2.Chapter2AdapterViewFlipper">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
