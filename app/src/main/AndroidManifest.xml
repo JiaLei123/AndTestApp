@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         -->
-        <activity android:name=".Chapter2.Chapter2AdapterViewFlipper">
+        <activity android:name=".Chapter2.Chapter2StackView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

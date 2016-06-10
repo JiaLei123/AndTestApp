@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.SimpleAdapter;
 
 import com.example.jiayu.helloworld.R;
+import com.example.jiayu.helloworld.Uiltity.Constants;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -19,14 +20,8 @@ public class Chapter2GridView extends AppCompatActivity {
 
     GridView grid;
     ImageView imageView;
-    int[] imageIds = new int[]
-    {
-        R.drawable.bomb5, R.drawable.bomb6, R.drawable.bomb7,
-        R.drawable.bomb8, R.drawable.bomb9, R.drawable.bomb10,
-        R.drawable.bomb11, R.drawable.bomb12, R.drawable.bomb13,
-        R.drawable.bomb14, R.drawable.bomb15, R.drawable.bomb16
-    };
 
+    int[] imageIds = Constants.imageIds;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
