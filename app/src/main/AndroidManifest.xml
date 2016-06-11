@@ -22,7 +22,15 @@
             </intent-filter>
         </activity>
         -->
-        <activity android:name=".Chapter2.Chapter2SeekBar">
+
+        <activity android:name=".Chapter2.Chapter2RatingBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Chapter2.Chapter2ViewSwitcher">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
