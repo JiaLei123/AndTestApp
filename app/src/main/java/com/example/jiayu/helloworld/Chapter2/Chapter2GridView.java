@@ -21,7 +21,7 @@ public class Chapter2GridView extends AppCompatActivity {
     GridView grid;
     ImageView imageView;
 
-    int[] imageIds = Constants.imageIds;
+    int[] imageIds = Constants.Bomb_Images;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -22,8 +22,7 @@
             </intent-filter>
         </activity>
         -->
-
-        <activity android:name=".Chapter2.Chapter2ImageSwitcher">
+        <activity android:name=".Chapter2.Chapter2TextSwitcher">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

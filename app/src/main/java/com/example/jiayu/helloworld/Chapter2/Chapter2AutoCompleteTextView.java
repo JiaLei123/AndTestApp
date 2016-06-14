@@ -7,18 +7,14 @@ import android.widget.AutoCompleteTextView;
 import android.widget.MultiAutoCompleteTextView;
 
 import com.example.jiayu.helloworld.R;
+import com.example.jiayu.helloworld.Uiltity.Constants;
 
 public class Chapter2AutoCompleteTextView extends AppCompatActivity {
 
     AutoCompleteTextView actv;
     MultiAutoCompleteTextView mauto;
 
-    String[] books = new String[]{
-            "Crazy Java",
-            "Crazy Ajax",
-            "Crazy XML",
-            "Crazy WorkFlow"
-    };
+    String[] books = Constants.books;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

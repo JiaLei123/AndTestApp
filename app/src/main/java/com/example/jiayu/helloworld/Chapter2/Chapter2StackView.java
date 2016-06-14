@@ -16,7 +16,7 @@ import java.util.Map;
 
 public class Chapter2StackView extends AppCompatActivity {
 
-    int[] imageIds = Constants.imageIds;
+    int[] imageIds = Constants.Bomb_Images;
     StackView stackView;
 
     @Override

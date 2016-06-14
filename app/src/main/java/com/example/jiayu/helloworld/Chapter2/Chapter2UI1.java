@@ -7,16 +7,12 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.example.jiayu.helloworld.R;
+import com.example.jiayu.helloworld.Uiltity.Constants;
 
 public class Chapter2UI1 extends AppCompatActivity {
 
 
-    int[] images = new int[]{
-            R.drawable.ajax,
-            R.drawable.html,
-            R.drawable.java,
-            R.drawable.javaee
-    };
+    int[] images = Constants.Bomb_Images;
 
     int currentImg = 0;
     @Override
