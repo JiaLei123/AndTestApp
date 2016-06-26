@@ -17,4 +17,10 @@
         android:text="显示带图片的提示"
         android:id="@+id/bn"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示带图片的提示2"
+        android:id="@+id/bn2"/>
+
 </LinearLayout>
