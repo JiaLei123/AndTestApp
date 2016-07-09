@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         -->
-        <activity android:name=".Chapter2.Chapter2ChooseDate">
+        <activity android:name=".Chapter2.Chapter2NumberPicker">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
