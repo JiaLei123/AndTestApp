@@ -30,10 +30,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Chapter2.Chapter2ScrollView"
+            android:label="@string/other_activity"></activity>
+        <!-- 添加操作闪光灯的权限 -->
+        <uses-permission android:name="android.permission.FLASHLIGHT" />
+        <!-- 添加操作振动器的权限 -->
+        <uses-permission android:name="android.permission.VIBRATE" />
 
+        <activity android:name=".Chapter2.Chapter2AlertDialog">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <activity android:name=".Chapter2.Chapter2ScrollView" android:label="@string/other_activity">
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
