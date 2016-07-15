@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/loginForm">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="用户名："
+            android:id="@+id/textView"
+            android:layout_column="0"
+            android:textSize="10pt" />
+
+        <EditText android:id="@+id/editText"
+            android:layout_column="1"
+            android:hint="请填写登陆账户"
+            android:selectAllOnFocus="true" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码："
+            android:id="@+id/textView2"
+            android:layout_column="0"
+            android:textSize="10pt" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:layout_column="1"
+            android:password="true" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="电话号码"
+            android:id="@+id/textView3"
+            android:layout_column="0"
+            android:textSize="10pt" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/editText3"
+            android:layout_column="1"
+            android:hint="请填写你的电话号码"
+            android:selectAllOnFocus="true"
+            android:phoneNumber="true" />
+    </TableRow>
+</TableLayout>
