@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DateDialog Test"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="你选择的时间是："
+            />
+        <EditText
+            android:id="@+id/show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/dateBn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DatePicker"/>
+
+    <Button
+        android:id="@+id/timeBn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TimePicker"/>
+
+</LinearLayout>

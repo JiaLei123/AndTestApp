@@ -23,7 +23,7 @@
         </activity>
         -->
 
-        <activity android:name=".Chapter2.Chapter2PopupWindow">
+        <activity android:name=".Chapter2.Chapter2DatePickerTimPickerDialog">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
